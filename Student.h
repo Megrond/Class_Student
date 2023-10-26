@@ -11,7 +11,7 @@ class Student
 public:
 	Student(const char* new_name, int new_ball_count, int* new_ball);//конструктор
 	Student(const char* new_name, int new_ball_count); //перегрузка конструктора
-
+	~Student(); //деструктор
 	void setName(const char* new_name);
 	void setBall(int index, int value);
 

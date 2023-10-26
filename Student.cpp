@@ -64,6 +64,12 @@ Student::Student(const char* new_name, int new_ball_count)
 	}
 }
 
+Student::~Student()
+{
+	delete[]name;
+	delete[]ball;
+}
+
 
 
 
